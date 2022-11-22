@@ -11,7 +11,7 @@ def enviar_email():
     msg['Subject'] = "Acesso ao cadastro 2"
     msg['From'] = 'julianoesa@gmail.com'
     msg['To'] = 'julianoesa@gmail.com'
-    password = 'busylacolsauaode'
+    password = 'zzzzzzzzzzzz'
     msg.add_header('Content-Type', 'text/html')
     msg.set_payload(corpo_email )
 
